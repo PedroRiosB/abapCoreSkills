@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_PRB_DB_CONN'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_PRB_DB_CONN'
+  }
+}
+define service ZUI_PRB_DB_CONN_O4 provider contracts odata_v4_ui {
+  expose ZC_PRB_DB_CONN;
+}

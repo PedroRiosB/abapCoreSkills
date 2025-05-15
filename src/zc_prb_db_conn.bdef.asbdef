@@ -1,0 +1,17 @@
+projection implementation in class ZBP_C_PRB_DB_CONN unique;
+strict ( 2 );
+use draft;
+define behavior for ZC_PRB_DB_CONN alias ZcPrbDbConn
+use etag
+
+{
+  use create;
+  use update;
+  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+}
